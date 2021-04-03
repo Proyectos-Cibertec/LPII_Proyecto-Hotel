@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu')
+
+body, .btn {
+	font-family: Ubuntu;
+}
+
+.modal-header, .close, .panel-title {
+	background-color: #286090;
+	color: white !important;
+	text-align: center;
+}
+
+.modal-header h4 {
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.modal-dialog {
+	width: 60%;
+}
+
+.panel-body {
+    background: #dddddd87;
+}
+
+.table {
+	background-image: url(http://i.imgur.com/ECXqUOn.png);
+}
+
+
+.modal-body {
+	padding: 20px 10px;
+}
+
+.btn-actualizar, 
+.btn-eliminar, 
+.btn-seleccionar,
+.btn-quitar-habitacion {
+	background: hsla(233, 100%, 100%, 0);
+}
+
+h1 {
+	text-align: center;
+}
+
+.btn {
+	width: 100%;
+}
+
+.primeraFila .btn-filtrar, .primeraFila .btn-nuevo,
+#btnModalBuscarHabitacion,
+#btnAgregarHabitacionADetalle {
+	margin-top: 24px;
+	height: 34px;
+}
+
+.btn-image-icon {
+	width: 22px;
+}
+
+.btn {
+	font-weight: bold;
+}
+
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.modal-dialog {
+    margin: 0px !important;
+}
+
+.modal-dialog, .modal-dialog.modal-lg {
+    transform: translate(-50%,-50%)!important;
+    left: 50%!important;
+    top: 50%!important;
+    position: absolute!important;
+}
